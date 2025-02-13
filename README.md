@@ -47,7 +47,7 @@ cargo run
 <!-- END_STEP -->
 
 If everything went well you should see the following output:
-```
-![alt text](./images/select_users.jpg)
-```
+
+![Foto 1](images/select_users.jpg "Foto 1")
+
 
