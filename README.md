@@ -8,21 +8,21 @@
 ### Site ScyllaDB
 - [https://www.scylladb.com/](https://www.scylladb.com/)
 
+-------------------------------------------------------------
 
-
-Connecting to ScyllaDB in Docker:
+#### Connecting to ScyllaDB in Docker:
 ```
 docker exec -it scylla cqlsh
 ```
 
-Create a keyspace:
+#### Create a keyspace:
 ```
 CREATE KEYSPACE my_keyspace
 WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
 USE my_keyspace;
 ```
 
-Create a table:
+#### Create a table:
 ```
 CREATE TABLE users (
     id UUID PRIMARY KEY,
@@ -32,7 +32,7 @@ CREATE TABLE users (
 );
 ```
 
-Insert data:
+#### Insert data:
 ```
 INSERT INTO users (id, name, age, email)
 VALUES (uuid(), 'Alice', 28, 'alice@example.com');
