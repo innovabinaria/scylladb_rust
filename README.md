@@ -5,8 +5,9 @@
 ### Technologies
 [![My Skills](https://skillicons.dev/icons?i=rust)](https://skillicons.dev)
 
-## Site ScyllaDB
+### Site ScyllaDB
 - [https://www.scylladb.com/](https://www.scylladb.com/)
+
 
 
 Connecting to ScyllaDB in Docker:
