@@ -2,7 +2,7 @@
 
 ### This example assumes that ScyllaDB is dockerized and listening on 127.0.0.1:9042.
 
-### Tecnologias
+### Technologies
 [![My Skills](https://skillicons.dev/icons?i=rust)](https://skillicons.dev)
 
 Connecting to ScyllaDB in Docker:
