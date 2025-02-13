@@ -1,0 +1,11 @@
+[package]
+name = "scylla_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+scylla = "0.15"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+uuid = { version = "1.3", features = ["v4", "serde"] } # 📌 Asegúrate de incluir esto
+anyhow ={ version = "1.0", features = ["std"] } 
