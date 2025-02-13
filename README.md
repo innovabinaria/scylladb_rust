@@ -48,6 +48,6 @@ cargo run
 
 If everything went well you should see the following output:
 ```
-![alt text](images/select_users.jpg)
+![alt text](./images/select_users.jpg)
 ```
 
